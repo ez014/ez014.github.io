@@ -1,0 +1,25 @@
+<h1 id="title" align="center">A Very Cool Survey Form</h1>
+<p id="description" align="center"> Thank you for taking this survey. </p>
+<form id="survey-form">
+<label id="name-label" for="name"> Name here: </label><input id="name" type="text" placeholder="enter your name" required ></input>
+<label id="email-label" for="email"> Email here: </label><input id="email" type="email" placeholder="enter your email" required ></input>
+<label id="number-label"> Age here:</label> <input id="number" type="number" placeholder="age" min="14" max="30" required></input>
+<label for="dropdown"> Pick something that sounds nice: </label>
+<select id="dropdown">
+  <option value="Sleeping"> Sleeping </option> 
+  <option value="Friends"> Friends </option> 
+  <option value="All Above"> All Above </option> 
+  <option value="None Above"> None Above</option> </select> 
+  <label target> Yes or no? </label> 
+  <div id="radio"> 
+    <label for="1"><input type="radio" name="period" id="1" value="Yes"> Yes </label> 
+     <label for="2"><input type="radio" name="period" id="2" value="No"> No </label> 
+     </div>
+     <label target> One or two?</label> 
+     <div id="check"> 
+       <label for="a"><input type="checkbox" name="it" id="a" value="One"> One</label> 
+        <label for="b"><input type="checkbox" name="it" id="b" value="Two"> Two</label> </div> 
+        <label target> Write your favorite color: </label> 
+        <textarea placeholder="here"></textarea>
+        <input type="submit" id="submit">
+</form>
